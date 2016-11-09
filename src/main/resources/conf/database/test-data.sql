@@ -1,0 +1,12 @@
+INSERT INTO products VALUES('1000','Slim Fit Shirt','Arrow',1199.90,'A');
+INSERT INTO products VALUES('2000','Multimedia speakers','Logitech',1299.99,'B');
+INSERT INTO products VALUES('3000','Baby powder','Himalaya',1099.00,'C');
+INSERT INTO products VALUES('4000','Classic Fit Shirt','John miller',999.10,'A');
+INSERT INTO products VALUES('5000','A3 Dual speaker mobile','Intex',1100.50,'B');
+INSERT INTO products VALUES('6000','Lotion','Himalaya',1200.34,'C');
+INSERT INTO products VALUES('7000','Skin fit jeans','Max',1499.45,'A');
+INSERT INTO products VALUES('8000','Bluetooth Speaker','JBL',5599.56,'B');
+INSERT INTO products VALUES('9000','Shampoo','Himalaya',1599.00,'C');
+INSERT INTO products VALUES('1001','Formal','John Playes',1699.89,'A');
+INSERT INTO products VALUES('1100','42inch LED','Sony',1799.12,'B');
+INSERT INTO products VALUES('1200','Conditioner','Himalaya',2099.23,'C');
