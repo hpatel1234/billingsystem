@@ -14,7 +14,7 @@
 	$(document).ready(function() {
 		
 		$.ajax({
-			url : "http://localhost:8080/online-store/bills/",
+			url : "http://localhost:8080/billing-system/bills/",
 			type : "POST",
 			dataType :"json",
 			success : function(response) {
@@ -37,7 +37,7 @@
 			var productCode = $('#productCode').val();
 			if(productCode != null && productCode.trim() != '') {
 				$.ajax({
-					url : "http://localhost:8080/online-store/products/"+productCode,
+					url : "http://localhost:8080/billing-system/products/"+productCode,
 					type : "GET",
 					dataType :"json",
 					success : function(response) {
@@ -61,7 +61,7 @@
 			request['commit'] = false;
 			request['billNumber'] = billNumber;
 			$.ajax({
-			    url : "http://localhost:8080/online-store/bills/"+billNumber,
+			    url : "http://localhost:8080/billing-system/bills/"+billNumber,
 				type : "POST",
 				dataType :"json",
 				contentType: "application/json",
