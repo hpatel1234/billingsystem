@@ -129,17 +129,17 @@
      	    </thead>
 	</table>
 	<form class="form-inline">
-  		<div class="form-group pull-right">
-    		<label for="totalTax">Total Tax :</label>
-    		<input type="text" class="form-control" id="totalTax" disabled="disabled">
+		<div class="form-group pull-right">
+   			 <label for="actualCost">Total Bill :</label>
+    		 <input type="text" class="form-control"  disabled="disabled" id="actualCost">
   		</div>
   		<div class="form-group pull-right">
    			 <label for="totalPrice">Total Price :</label>
     		 <input type="text" class="form-control"  disabled="disabled" id="totalPrice">
   		</div>
   		<div class="form-group pull-right">
-   			 <label for="actualCost">Total Bill :</label>
-    		 <input type="text" class="form-control"  disabled="disabled" id="actualCost">
+    		<label for="totalTax">Total Tax :</label>
+    		<input type="text" class="form-control" id="totalTax" disabled="disabled">
   		</div>
 	</form>
 	</div>
